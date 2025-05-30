@@ -1,34 +1,33 @@
 @font-face {
-  font-family: 'Black Mango';
-  src: url('./assets/Fonts/black-mango-regular.ttf') format('truetype');
+  font-family: "Black Mango";
+  src: url("./assets/Fonts/black-mango-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-.tenor-sans-regular{
+.tenor-sans-regular {
   font-family: "Tenor Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  
 }
-.spacing-p-uno{
-    margin-left: 6vw;
+.spacing-p-uno {
+  margin-left: 6vw;
 }
-.spacing-hr{
-    margin-left: 9vh;
+.spacing-hr {
+  margin-left: 9vh;
 }
-.color-border{
-    border: 2vh;
-    border: solid;
-    border-color: #cdcdcd;
+.color-border {
+  border: 2vh;
+  border: solid;
+  border-color: #cdcdcd;
 }
-.color-bg{
-    background-color: #dbb6c7;
+.color-bg {
+  background-color: #dbb6c7;
 }
-.color-titles{
-    color:#dbb6c7 ;
+.color-titles {
+  color: #dbb6c7;
 }
 .custom-rotate {
-    transform: rotate(10deg);
+  transform: rotate(10deg);
 }
 .black-mango {
   font-family: "Black Mango", serif;
@@ -36,22 +35,21 @@
   font-weight: 50vw;
   font-style: normal;
 }
-.sizing-img{
-    width: 25vw;
-    height: 60vh;
+.sizing-img {
+  width: 25vw;
+  height: 60vh;
 }
-.sizing-margin{
-    padding-top:2vh ;
-    width: 27vw;
-    height: 75vh;
+.sizing-margin {
+  padding-top: 2vh;
+  width: 27vw;
+  height: 75vh;
 }
 .wave-container {
   position: relative;
 }
-.spacing-tittle{
-    margin-left: 6vw;
-    color: #e7c0d2;
-    
+.spacing-tittle {
+  margin-left: 6vw;
+  color: #e7c0d2;
 }
 .wave-container svg {
   position: absolute;
@@ -62,5 +60,36 @@
 
 #image-title {
   width: 100%;
+  display: block;
+}
+
+.wave-image-container {
+  position: relative;
+  text-align: center;
+  background: #c1e0e8;
+}
+
+.wave-top,
+.wave-bottom {
+  background: #c1e0e8;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-top svg,
+.wave-bottom svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wave-top path {
+  transform-origin: center;
+}
+
+.wave-image-container img {
+  width: 100%;
+  height: auto;
   display: block;
 }
