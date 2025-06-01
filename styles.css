@@ -39,6 +39,15 @@
   width: 25vw;
   height: 60vh;
 }
+.sizing-img-r{
+  width: 17vw;
+  height: 37vh;
+}
+.hola-tittle {
+  margin-right: 5vw;
+  font-size: 15vh;
+  height: 20vh;
+}
 .sizing-margin {
   padding-top: 2vh;
   width: 27vw;
@@ -50,6 +59,15 @@
 .spacing-tittle {
   margin-left: 6vw;
   color: #e7c0d2;
+}
+.bg-robot {
+  background-color: #b6604c;
+}
+.m-robot {
+  margin-left: 10vw;
+}
+.image-robot {
+  margin-right: 10vw;
 }
 .wave-container svg {
   position: absolute;
@@ -92,4 +110,7 @@
   width: 100%;
   height: auto;
   display: block;
+}
+.rotate-image1{
+  transform: rotate(10deg);
 }
