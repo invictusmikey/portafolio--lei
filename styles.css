@@ -38,7 +38,10 @@
 .sizing-img {
   width: 25vw;
   height: 60vh;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.938);
 }
+
 .sizing-img-r{
   width: 17vw;
   height: 37vh;
@@ -114,3 +117,21 @@
 .rotate-image1{
   transform: rotate(10deg);
 }
+.rotate-image2{
+  transform: rotate(-10deg);
+}
+.animate-img:hover{
+  transform: scale(1);
+}
+.progress-bar {
+  border-radius: 50px;
+  font-size: 0.9rem;
+}
+.progress-bar::after {
+  content: attr(aria-valuenow) '%';
+  position: absolute;
+  right: 10px;
+  color: #fff;
+  font-size: 0.75rem;
+}
+
